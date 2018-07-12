@@ -11,9 +11,7 @@ bool KernelRecord::showTransaction(const CWalletTx &wtx)
     {
         if (wtx.GetDepthInMainChain() < 2)
             return false;
-    } else
-        if (wtx.GetDepthInMainChain() == 0)
-            return false;
+    }
 
     return true;
 }
