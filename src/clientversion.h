@@ -26,7 +26,7 @@
 // ppcoin version - intended for display purpose ONLY
 #define SPROUTS_VERSION_MAJOR       0
 #define SPROUTS_VERSION_MINOR       2
-#define SPROUTS_VERSION_REVISION    0
+#define SPROUTS_VERSION_REVISION    1
 #define SPROUTS_VERSION_BUILD       0
 
 // Copyright year (2009-this)
