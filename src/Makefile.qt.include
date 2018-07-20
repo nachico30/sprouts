@@ -244,7 +244,8 @@ SPROUTS_QT_CPP = \
   qt/qvalidatedlineedit.cpp \
   qt/qvaluecombobox.cpp \
   qt/rpcconsole.cpp \
-  qt/splashscreen.cpp 
+  qt/splashscreen.cpp \
+  qt/qimagelabel.cpp
 
 if ENABLE_WALLET
 SPROUTS_QT_CPP += \
