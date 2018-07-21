@@ -195,7 +195,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>パスフレーズを入力</translation>
+        <translation>現在のパスフレーズ</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -205,12 +205,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>新しいパスフレーズをもう一度</translation>
+        <translation>もう一度入力</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>ウォレットの新しいパスフレーズを入力してください。&lt;br/&gt;&lt;b&gt;8個以上の単語か10個以上のランダムな文字&lt;/b&gt;を使ってください。</translation>
+        <translation>新しいパスフレーズを入力してください。&lt;br/&gt;&lt;b&gt;8個以上の単語か10個以上のランダムな文字&lt;/b&gt;を使ってください。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -220,7 +220,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>この操作はウォレットをアンロックするためにパスフレーズが必要です。</translation>
+        <translation>ウォレットをアンロックするためにパスフレーズが必要です。</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -230,7 +230,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>この操作はウォレットの暗号化解除のためにパスフレーズが必要です。</translation>
+        <translation>ウォレットの暗号化を解除するためにパスフレーズが必要です。</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -264,17 +264,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SPROUTSS&lt;/b&gt;!</source>
-        <translation type="unfinished"></translation>
+        <translation>注意: パスフレーズを紛失した場合、&lt;b&gt;Sproutsを取り出すことができなくなります！&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Sprouts will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sproutss from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>暗号化を完了するためにウォレットを終了します。暗号化は、コンピューターウィルスなどによるSproutsの盗難を完全に防ぐものではありません。</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>重要: 過去のウォレット ファイルのバックアップは、暗号化された新しいウォレット ファイルに取り替える必要があります。セキュリティ上の理由により、暗号化された新しいウォレットを使い始めると、暗号化されていないウォレット ファイルのバックアップはすぐに使えなくなります。</translation>
+        <translation>重要: 過去のウォレットファイルのバックアップは、暗号化された新しいウォレットファイルに取り替える必要があります。セキュリティ上の理由により、暗号化された新しいウォレットを使い始めると、暗号化されていないウォレットファイルのバックアップはすぐに使えなくなります。</translation>
     </message>
     <message>
         <location line="+100"/>
@@ -298,7 +298,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+42"/>
         <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>ウォレットの暗号化に失敗しました</translation>
+        <translation>暗号化に失敗しました</translation>
     </message>
     <message>
         <location line="-54"/>
@@ -314,24 +314,24 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>ウォレットのアンロックに失敗しました</translation>
+        <translation>アンロックに失敗しました</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>ウォレットの暗号化解除のパスフレーズが正しくありません。</translation>
+        <translation>パスフレーズが正しくありません。</translation>
     </message>
     <message>
         <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>ウォレットの暗号化解除に失敗しました</translation>
+        <translation>暗号化解除に失敗しました</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>ウォレットのパスフレーズが正常に変更されました。</translation>
+        <translation>パスフレーズが正常に変更されました。</translation>
     </message>
 </context>
 <context>
@@ -349,7 +349,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-388"/>
         <source>&amp;Overview</source>
-        <translation>概要(&amp;O)</translation>
+        <translation>概要</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -359,7 +359,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+20"/>
         <source>&amp;Transactions</source>
-        <translation>取引(&amp;T)</translation>
+        <translation>取引</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -480,32 +480,32 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+108"/>
         <source>&amp;Send</source>
-        <translation>送信(&amp;S)</translation>
+        <translation>送信</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Receive</source>
-        <translation>受取(&amp;R)</translation>
+        <translation>受取</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>&amp;Minting</source>
-        <translation type="unfinished"></translation>
+        <translation>鋳造</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show your minting capacity</source>
-        <translation type="unfinished"></translation>
+        <translation>鋳造(PoS)の状況を見る</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Addresses</source>
-        <translation>アドレス (&amp;A)</translation>
+        <translation>アドレス</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Multisig</source>
-        <translation type="unfinished"></translation>
+        <translation>マルチシグ</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -530,12 +530,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+2"/>
         <source>&amp;Decrypt Wallet for Minting Only</source>
-        <translation type="unfinished"></translation>
+        <translation>鋳造(PoS)のためにウォレットの暗号化を解除</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Decrypt wallet only for minting. Sending coins will still require the password.</source>
-        <translation type="unfinished"></translation>
+        <translation>鋳造(PoS)のためにウォレットの暗号化を解除します。コインの送付にはパスワードが求められます。</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -571,7 +571,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+22"/>
         <location line="+10"/>
         <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <translation>[テストネット]</translation>
     </message>
     <message>
         <location line="+47"/>
@@ -624,7 +624,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+4"/>
         <source>%1 behind</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 遅延</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -713,7 +713,7 @@ Address: %4
     <message>
         <location line="+0"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked for block minting only&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>ウォレットは&lt;b&gt;暗号化され、鋳造(PoS)のためだけにアンロックされています&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -739,12 +739,12 @@ Address: %4
     <message>
         <location filename="../forms/coincontroldialog.ui" line="+14"/>
         <source>Coin Control</source>
-        <translation type="unfinished"></translation>
+        <translation>コインコントロール</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>Quantity:</source>
-        <translation type="unfinished"></translation>
+        <translation>量:</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -755,12 +755,12 @@ Address: %4
     <message>
         <location line="-19"/>
         <source>Bytes:</source>
-        <translation type="unfinished"></translation>
+        <translation>バイト:</translation>
     </message>
     <message>
         <location line="+51"/>
         <source>Amount:</source>
-        <translation type="unfinished">金額:</translation>
+        <translation>金額:</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -773,12 +773,12 @@ Address: %4
     <message>
         <location line="-203"/>
         <source>Priority:</source>
-        <translation type="unfinished"></translation>
+        <translation>優先度:</translation>
     </message>
     <message>
         <location line="+51"/>
         <source>Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation>手数料:</translation>
     </message>
     <message>
         <location line="+38"/>
@@ -789,168 +789,168 @@ Address: %4
         <location line="+22"/>
         <location filename="../coincontroldialog.cpp" line="+604"/>
         <source>no</source>
-        <translation type="unfinished"></translation>
+        <translation>いいえ</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>After Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation>手数料差引後金額:</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Change:</source>
-        <translation type="unfinished"></translation>
+        <translation>支払額:</translation>
     </message>
     <message>
         <location line="+69"/>
         <source>(un)select all</source>
-        <translation type="unfinished"></translation>
+        <translation>全選択/解除</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Tree mode</source>
-        <translation type="unfinished"></translation>
+        <translation>ツリー</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>List mode</source>
-        <translation type="unfinished"></translation>
+        <translation>リスト</translation>
     </message>
     <message>
         <location line="+45"/>
         <source>Amount</source>
-        <translation type="unfinished">金額</translation>
+        <translation>金額</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Address</source>
-        <translation type="unfinished">アドレス</translation>
+        <translation>アドレス</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Date</source>
-        <translation type="unfinished">日付</translation>
+        <translation>日付</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Confirmations</source>
-        <translation type="unfinished"></translation>
+        <translation>検証済み数</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Confirmed</source>
-        <translation type="unfinished">検証済み</translation>
+        <translation>検証済み</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Coin days</source>
-        <translation type="unfinished"></translation>
+        <translation>コインデイ</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Priority</source>
-        <translation type="unfinished"></translation>
+        <translation>優先度</translation>
     </message>
     <message>
         <location filename="../coincontroldialog.cpp" line="-568"/>
         <source>Copy address</source>
-        <translation type="unfinished">アドレスをコピー</translation>
+        <translation>アドレスをコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy label</source>
-        <translation type="unfinished">ラベルをコピー</translation>
+        <translation>ラベルをコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+26"/>
         <source>Copy amount</source>
-        <translation type="unfinished">金額のコピー</translation>
+        <translation>金額のコピー</translation>
     </message>
     <message>
         <location line="-25"/>
         <source>Copy transaction ID</source>
-        <translation type="unfinished">トランザクションIDをコピー</translation>
+        <translation>トランザクションIDをコピー</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Copy quantity</source>
-        <translation type="unfinished"></translation>
+        <translation>量をコピー</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Copy fee</source>
-        <translation type="unfinished"></translation>
+        <translation>手数料をコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy after fee</source>
-        <translation type="unfinished"></translation>
+        <translation>手数料差引後金額をコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy bytes</source>
-        <translation type="unfinished"></translation>
+        <translation>バイトをコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy priority</source>
-        <translation type="unfinished"></translation>
+        <translation>優先度をコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy low output</source>
-        <translation type="unfinished"></translation>
+        <translation>low outputをコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy change</source>
-        <translation type="unfinished"></translation>
+        <translation>支払額をコピー</translation>
     </message>
     <message>
         <location line="+320"/>
         <source>highest</source>
-        <translation type="unfinished"></translation>
+        <translation>最高</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>high</source>
-        <translation type="unfinished"></translation>
+        <translation>高</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>medium-high</source>
-        <translation type="unfinished"></translation>
+        <translation>中高</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>medium</source>
-        <translation type="unfinished"></translation>
+        <translation>中</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>low-medium</source>
-        <translation type="unfinished"></translation>
+        <translation>中低</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>low</source>
-        <translation type="unfinished"></translation>
+        <translation>低</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>lowest</source>
-        <translation type="unfinished"></translation>
+        <translation>最低</translation>
     </message>
     <message>
         <location line="+205"/>
         <source>DUST</source>
-        <translation type="unfinished"></translation>
+        <translation>ダスト</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>yes</source>
-        <translation type="unfinished"></translation>
+        <translation>はい</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -982,7 +982,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
         <location line="+38"/>
         <location line="+64"/>
         <source>(no label)</source>
-        <translation type="unfinished">（ラベル無し）</translation>
+        <translation>（ラベル無し）</translation>
     </message>
     <message>
         <location line="-7"/>
@@ -1045,17 +1045,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location line="+76"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>入ったのアドレス「%1」はもうアドレス帳にあります。</translation>
+        <translation>入力したアドレス「%1」はすでにアドレス帳にあります。</translation>
     </message>
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Sprouts address.</source>
-        <translation>入力されたアドレス &quot;%1&quot; 、有効なSproutsアドレスではありません。</translation>
+        <translation>入力されたアドレス &quot;%1&quot; は、有効なSproutsアドレスではありません。</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>財布をアンロック出来ませんでした。</translation>
+        <translation>ウォレットをアンロック出来ませんでした。</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1079,7 +1079,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location line="+2"/>
         <source>Usage:</source>
-        <translation>使用法</translation>
+        <translation>使用法:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1112,47 +1112,47 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location filename="../mintingtablemodel.cpp" line="+244"/>
         <source>Transaction</source>
-        <translation type="unfinished">トランザクション</translation>
+        <translation>トランザクション</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation type="unfinished">アドレス</translation>
+        <translation>アドレス</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Age</source>
-        <translation type="unfinished"></translation>
+        <translation>熟成日数</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Balance</source>
-        <translation type="unfinished"></translation>
+        <translation>残高</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>CoinDay</source>
-        <translation type="unfinished"></translation>
+        <translation>コインデイ　</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>MintProbability</source>
-        <translation type="unfinished"></translation>
+        <translation>鋳造確率</translation>
     </message>
     <message>
         <location line="+82"/>
         <source>minutes</source>
-        <translation type="unfinished"></translation>
+        <translation>分</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>hours</source>
-        <translation type="unfinished"></translation>
+        <translation>時</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>days</source>
-        <translation type="unfinished"></translation>
+        <translation>日</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1162,12 +1162,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location line="+120"/>
         <source>Destination address of the output.</source>
-        <translation type="unfinished"></translation>
+        <translation>出力の宛先アドレス</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Original transaction id.</source>
-        <translation type="unfinished"></translation>
+        <translation>オリジナルトランザクションID</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1195,107 +1195,107 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location filename="../mintingview.cpp" line="+34"/>
         <source>transaction is too young</source>
-        <translation type="unfinished"></translation>
+        <translation>未熟成</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>transaction is mature</source>
-        <translation type="unfinished"></translation>
+        <translation>熟成</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>transaction  has reached maximum probability</source>
-        <translation type="unfinished"></translation>
+        <translation>完熟</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Display minting probability within : </source>
-        <translation type="unfinished"></translation>
+        <translation>鋳造(PoS)確率を表示（※当選を確約するものではありません）: </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>24 hours</source>
-        <translation type="unfinished"></translation>
+        <translation>24時間</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>5 days</source>
-        <translation type="unfinished"></translation>
+        <translation>5日</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>10 days</source>
-        <translation type="unfinished"></translation>
+        <translation>10日</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>30 days</source>
-        <translation type="unfinished"></translation>
+        <translation>30日</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>90 days</source>
-        <translation type="unfinished"></translation>
+        <translation>90日</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>Copy address</source>
-        <translation type="unfinished">アドレスをコピー</translation>
+        <translation>アドレスをコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy transaction id</source>
-        <translation type="unfinished"></translation>
+        <translation>トランザクションIDをコピー</translation>
     </message>
     <message>
         <location line="+83"/>
         <source>Export Minting Data</source>
-        <translation type="unfinished"></translation>
+        <translation>鋳造（PoS）データをエクスポート</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation type="unfinished"></translation>
+        <translation>CSVファイル(*.csv)</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Address</source>
-        <translation type="unfinished">アドレス</translation>
+        <translation>アドレス</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Transaction</source>
-        <translation type="unfinished">トランザクション</translation>
+        <translation>トランザクション</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Age</source>
-        <translation type="unfinished"></translation>
+        <translation>熟成日数</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>CoinDay</source>
-        <translation type="unfinished"></translation>
+        <translation>コインデイ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Balance</source>
-        <translation type="unfinished"></translation>
+        <translation>金額</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>MintingProbability</source>
-        <translation type="unfinished"></translation>
+        <translation>鋳造(PoS)確率</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error exporting</source>
-        <translation type="unfinished">エクスポートエラー</translation>
+        <translation>エクスポートエラー</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation type="unfinished">%1のファイルに書き込めませんでした。</translation>
+        <translation>%1のファイルに書き込めませんでした。</translation>
     </message>
 </context>
 <context>
@@ -1303,7 +1303,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location filename="../forms/multisigaddressentry.ui" line="+14"/>
         <source>Form</source>
-        <translation type="unfinished">フォーム</translation>
+        <translation>フォーム</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1328,7 +1328,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location line="+10"/>
         <source>Alt+P</source>
-        <translation type="unfinished">Alt+P</translation>
+        <translation>Alt+P</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1354,17 +1354,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location line="+7"/>
         <source>Choose address from address book</source>
-        <translation type="unfinished">アドレス帳からアドレスを選択する</translation>
+        <translation>アドレス帳からアドレスを選択する</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Alt+A</source>
-        <translation type="unfinished">Alt+A</translation>
+        <translation>Alt+A</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Label:</source>
-        <translation type="unfinished">ラベル</translation>
+        <translation>ラベル</translation>
     </message>
 </context>
 <context>
@@ -1372,7 +1372,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location filename="../forms/multisigdialog.ui" line="+14"/>
         <source>Multisig</source>
-        <translation type="unfinished"></translation>
+        <translation>マルチシグ</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1590,7 +1590,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location filename="../forms/multisiginputentry.ui" line="+14"/>
         <source>Form</source>
-        <translation type="unfinished">フォーム</translation>
+        <translation>フォーム</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1796,12 +1796,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location line="+7"/>
         <source>Whether to show coin control features or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>コインコントロールを使用するかどうか。</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Display coin &amp;control features (experts only!)</source>
-        <translation type="unfinished"></translation>
+        <translation>コインコントロールを使用する</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1876,43 +1876,43 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location line="+37"/>
         <source>Balances:</source>
-        <translation type="unfinished"></translation>
+        <translation>残高:</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+245"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Sprouts network after a connection is established, but this process has not completed yet.</source>
-        <translation>表示されている情報は最新ではない可能背があります。接続が確立された後、ウォレットは自動的にSproutsネットワークと同期しますが、まだ完了していません。</translation>
+        <translation>表示されている情報は最新ではない可能性があります。接続が確立された後、ウォレットは自動的にSproutsネットワークと同期しますが、まだ完了していません。</translation>
     </message>
     <message>
         <location line="-199"/>
         <source>Available:</source>
-        <translation type="unfinished"></translation>
+        <translation>利用可能額:</translation>
     </message>
     <message>
         <location line="+64"/>
         <source>Maturing:</source>
-        <translation type="unfinished"></translation>
+        <translation>検証待ちの当選額:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Total of newly minted or mined coins that are too young to be spent</source>
-        <translation type="unfinished"></translation>
+        <translation>発掘(PoW)や鋳造(PoS)が成功してすぐのトランザクションの合計額</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Total:</source>
-        <translation type="unfinished"></translation>
+        <translation>合計:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Total amount in your wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>ウォレットの合計額:</translation>
     </message>
     <message>
         <location line="+75"/>
         <source>Recent transactions:</source>
-        <translation type="unfinished"></translation>
+        <translation>最近の取引:</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -1946,7 +1946,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location line="+16"/>
         <source>Pending:</source>
-        <translation type="unfinished"></translation>
+        <translation>検証中:</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -2194,27 +2194,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location line="+76"/>
         <source>Coin Control Features</source>
-        <translation type="unfinished"></translation>
+        <translation>コインコントロール</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Inputs...</source>
-        <translation type="unfinished"></translation>
+        <translation>入力</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>automatically selected</source>
-        <translation type="unfinished"></translation>
+        <translation>自動的に選択されます</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Insufficient funds!</source>
-        <translation type="unfinished"></translation>
+        <translation>残高不足</translation>
     </message>
     <message>
         <location line="+86"/>
         <source>Quantity:</source>
-        <translation type="unfinished"></translation>
+        <translation>量:</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -2225,12 +2225,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location line="-19"/>
         <source>Bytes:</source>
-        <translation type="unfinished"></translation>
+        <translation>バイト:</translation>
     </message>
     <message>
         <location line="+51"/>
         <source>Amount:</source>
-        <translation type="unfinished">金額:</translation>
+        <translation>金額:</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -2243,17 +2243,17 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location line="-191"/>
         <source>Priority:</source>
-        <translation type="unfinished"></translation>
+        <translation>優先度:</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>medium</source>
-        <translation type="unfinished"></translation>
+        <translation>中</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation>手数料:</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -2263,22 +2263,22 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location line="+19"/>
         <source>no</source>
-        <translation type="unfinished"></translation>
+        <translation>いいえ</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>After Fee:</source>
-        <translation type="unfinished"></translation>
+        <translation>手数料差引後金額</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Change</source>
-        <translation type="unfinished"></translation>
+        <translation>支払額</translation>
     </message>
     <message>
         <location line="+50"/>
         <source>custom change address</source>
-        <translation type="unfinished"></translation>
+        <translation>支払用アドレスを設定する（任意）</translation>
     </message>
     <message>
         <location line="+115"/>
@@ -2323,63 +2323,63 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-175"/>
         <source>Enter an address</source>
-        <translation type="unfinished"></translation>
+        <translation>アドレスを入力</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Copy quantity</source>
-        <translation type="unfinished"></translation>
+        <translation>量をコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy amount</source>
-        <translation type="unfinished">金額のコピー</translation>
+        <translation>金額のコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy fee</source>
-        <translation type="unfinished"></translation>
+        <translation>手数料のコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy after fee</source>
-        <translation type="unfinished"></translation>
+        <translation>手数料差引後金額のコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy bytes</source>
-        <translation type="unfinished"></translation>
+        <translation>バイトのコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy priority</source>
-        <translation type="unfinished"></translation>
+        <translation>優先度のコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy low output</source>
-        <translation type="unfinished"></translation>
+        <translation>low outputのコピー</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy change</source>
-        <translation type="unfinished"></translation>
+        <translation>支払額のコピー</translation>
     </message>
     <message>
         <location line="+87"/>
         <location line="+2"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; から %2 (%3)に</translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; を %2 (%3)に</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Confirm send coins</source>
-        <translation>コインを送る確認</translation>
+        <translation>送金確認</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>%1を送金、よろしいですか?</translation>
+        <translation>%1送金します。よろしいですか?</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2411,7 +2411,7 @@ A standard change address will be used instead.</source>
     <message>
         <location line="+11"/>
         <source>(no label)</source>
-        <translation type="unfinished">（ラベル無し）</translation>
+        <translation>（ラベル無し）</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -2440,7 +2440,7 @@ A standard change address will be used instead.</source>
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>エラー：トランザクションは拒否されました。これは、wallet.datファイルのコピーを使用しコインがコピーしたウォレットで費やされた等、あなたのウォレットのコインの一部がすでに使われている場合に発生する可能性があります。</translation>
+        <translation>エラー：トランザクションは拒否されました。これは、wallet.datファイルのコピーを使用し、コインがコピーしたウォレットで消費された等、あなたのウォレットのコインの一部がすでに使われている場合に発生する可能性があります。</translation>
     </message>
 </context>
 <context>
@@ -2453,7 +2453,7 @@ A standard change address will be used instead.</source>
     <message>
         <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>金額(&amp;m):</translation>
+        <translation>金額(&amp;M):</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -2807,7 +2807,7 @@ A standard change address will be used instead.</source>
     <message>
         <location line="+2"/>
         <source>not accepted</source>
-        <translation>承認されなかった</translation>
+        <translation>否認</translation>
     </message>
     <message>
         <location line="+44"/>
@@ -2825,7 +2825,7 @@ A standard change address will be used instead.</source>
     <message>
         <location line="+16"/>
         <source>Net amount</source>
-        <translation>正味金額</translation>
+        <translation>金額</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2854,7 +2854,7 @@ A standard change address will be used instead.</source>
     </message>
     <message>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="vanished">生成されたコインは、使用する前に120ブロックの間成熟しなければなりません。このブロックを生成すると、ネットワークにブロードキャストされてブロックチェインに追加されます。ブロックチェインへの追加が失敗した場合、ラベルは「受け入られていない」に変わります。費やせられない状況になります。自分のノードと他のノードと数秒以内で新しいブロックを生成させたときに、時折起こります。</translation>
+        <translation type="vanished">生成されたコインは、使用する前に120ブロックの間成熟しなければなりません。このブロックを生成すると、ネットワークにブロードキャストされてブロックチェーンに追加されます。ブロックチェーンへの追加が失敗した場合、ラベルは「否認」に変わり、使用できない状況になります。自分のノードと他のノードと数秒以内で新しいブロックを生成されたときに、時折起こります。</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2964,13 +2964,13 @@ A standard change address will be used instead.</source>
     <message>
         <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>検証中 (%2 中 %1 検証済み)</translation>
+        <translation>検証済み (%1 検証済み)</translation>
     </message>
     <message numerus="yes">
         <location line="+8"/>
         <source>Mined balance will be available when it matures in %n more block(s)</source>
         <translation>
-            <numerusform>残っている残高は、％n以上のブロックで成熟すると利用可能になります。</numerusform>
+            <numerusform>残っている残高は、%n以上のブロックで成熟すると利用可能になります。</numerusform>
         </translation>
     </message>
     <message>
@@ -2986,17 +2986,17 @@ A standard change address will be used instead.</source>
     <message>
         <location line="+43"/>
         <source>Received with</source>
-        <translation>受信元</translation>
+        <translation>受取</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Received from</source>
-        <translation>送り主</translation>
+        <translation>受取</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Sent to</source>
-        <translation>送り先</translation>
+        <translation>送信</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3006,12 +3006,12 @@ A standard change address will be used instead.</source>
     <message>
         <location line="+2"/>
         <source>Mined</source>
-        <translation>発掘した(PoW)</translation>
+        <translation>発掘(PoW)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Mint by stake</source>
-        <translation type="unfinished"></translation>
+        <translation>鋳造(PoS)</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -3085,12 +3085,12 @@ A standard change address will be used instead.</source>
     <message>
         <location line="+11"/>
         <source>Received with</source>
-        <translation>送り主</translation>
+        <translation>受取</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Sent to</source>
-        <translation>送り先</translation>
+        <translation>送信</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3100,12 +3100,12 @@ A standard change address will be used instead.</source>
     <message>
         <location line="+1"/>
         <source>Mined</source>
-        <translation>発掘した</translation>
+        <translation>発掘(PoW)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Mint by stake</source>
-        <translation type="unfinished"></translation>
+        <translation>鋳造(PoS)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3155,7 +3155,7 @@ A standard change address will be used instead.</source>
     <message>
         <location line="+1"/>
         <source>Clear orphans</source>
-        <translation type="unfinished"></translation>
+        <translation>孤立したトランザクションをクリア</translation>
     </message>
     <message>
         <location line="+147"/>
