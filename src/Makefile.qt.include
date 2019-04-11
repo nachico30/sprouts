@@ -324,9 +324,9 @@ endif
 if USE_QRCODE
   qt_sprouts_qt_SOURCES += qt/qrcodedialog.cpp
 endif
-qt_sprouts_qt_LDADD = qt/libsproutsqt.a $(LIBSPROUTS_SERVER) 
+qt_sprouts_qt_LDADD = qt/libsproutsqt.a $(LIBSPROUTS_SERVER)
 if ENABLE_WALLET
-qt_sprouts_qt_LDADD += $(LIBSPROUTS_WALLET) 
+qt_sprouts_qt_LDADD += $(LIBSPROUTS_WALLET)
 endif
 qt_sprouts_qt_LDADD += $(LIBSPROUTS_CLI) $(LIBSPROUTS_COMMON) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(BDB_LIBS)
@@ -339,13 +339,14 @@ QT_QM=$(QT_TS:.ts=.qm)
 
 qt/bitcoinstrings.cpp: $(libsprouts_server_a_SOURCES) $(libsprouts_common_a_SOURCES) $(libsprouts_cli_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
-	@cd $(top_srcdir); XGETTEXT=$(XGETTEXT) share/qt/extract_strings_qt.py
+	@cd $(top_srcdir); XGETTEXT=$(XGETTEXT)
+#share/qt/extract_strings_qt.py
 
 translate: qt/bitcoinstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(SPROUTS_QT_CPP) $(SPROUTS_QT_H) $(SPROUTS_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
 	@QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/bitcoin_en.ts
 
-$(QT_QRC_CPP): $(QT_QRC) $(QT_QM) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_MOVIES) 
+$(QT_QRC_CPP): $(QT_QRC) $(QT_QM) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_MOVIES)
 	@cd $(abs_srcdir); test -f $(RCC) && $(RCC) -name bitcoin -o $(abs_builddir)/$@ $< || \
 	  echo error: could not build $@
 	$(SED) -i.bak -e '/^\*\*.*Created:/d' $@ && rm $@.bak
