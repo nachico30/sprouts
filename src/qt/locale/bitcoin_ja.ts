@@ -254,7 +254,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SPROUTS&lt;/b&gt;!</source>
-        <translation type="vanished">注意：暗号化したウォレットのパスワードを忘れた場合、&lt;b&gt;すべてのコインを失います&lt;/b&gt;!</translation>
+        <translation>注意：暗号化したウォレットのパスワードを忘れた場合、&lt;b&gt;すべてのコインを失います&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -290,7 +290,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
     </message>
     <message>
         <source>Sprouts will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Sprouts from being stolen by malware infecting your computer.</source>
-        <translation type="vanished">暗号化を完了するため、Sproutsを終了します。ウォレットを暗号化しても、コンピュータに感染したマルウェアによってコインが盗まれることを完全に防ぐことはできません。</translation>
+        <translation>暗号化を完了するため、Sproutsを終了します。ウォレットを暗号化しても、コンピュータに感染したマルウェアによってコインが盗まれることを完全に防ぐことはできません。</translation>
     </message>
     <message>
         <location line="-43"/>
@@ -1642,11 +1642,11 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     </message>
     <message>
         <source>Mandatory network transaction fee per kB transferred. Most transactions are 1 kB and incur a 0.01 SPRTS fee. Note: transfer size may increase depending on the number of input transactions required to be added together to fund the payment.</source>
-        <translation type="vanished">転送されたkB当たりの必須ネットワーク取引手数料。ほとんどの取引は1 kBで、0.01 SPRTSの手数料がかかります。　注：支払いの資金調達のために追加する必要がある入力トランザクションの数に応じて、転送サイズが増加することがあります。</translation>
+        <translation>転送されたkB当たりの必須ネットワーク取引手数料。ほとんどの取引は1 kBで、0.01 SPRTSの手数料がかかります。　注：支払いの資金調達のために追加する必要がある入力トランザクションの数に応じて、転送サイズが増加することがあります。</translation>
     </message>
     <message>
         <source>Additional network &amp;fee</source>
-        <translation type="vanished">追加ネットワーク手数料 (&amp;F)</translation>
+        <translation>追加ネットワーク手数料 (&amp;F)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1916,27 +1916,27 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     </message>
     <message>
         <source>Balance:</source>
-        <translation type="vanished">残高：</translation>
+        <translation>残高：</translation>
     </message>
     <message>
         <source>Unconfirmed:</source>
-        <translation type="vanished">未確認：</translation>
+        <translation>未確認：</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation type="vanished">ウォレット</translation>
+        <translation>ウォレット</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation type="vanished">未成熟:</translation>
+        <translation>未成熟:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation type="vanished">まだ成熟していない未熟な残高</translation>
+        <translation>まだ成熟していない未熟な残高</translation>
     </message>
     <message>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation type="vanished">&lt;b&gt;最近の取引&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;最近の取引&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="-176"/>
@@ -1964,7 +1964,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.</sourc
     <name>PaymentServer</name>
     <message>
         <source>Cannot start Sprouts: click-to-pay handler</source>
-        <translation type="vanished">Sproutsを開始できません：クリック支払いハンドラ</translation>
+        <translation>Sproutsを開始できません：クリック支払いハンドラ</translation>
     </message>
     <message>
         <location filename="../paymentserver.cpp" line="+108"/>
@@ -2415,7 +2415,7 @@ A standard change address will be used instead.</source>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation type="vanished">支払額は0より大きくないといけません。</translation>
+        <translation>支払額は0より大きくないといけません。</translation>
     </message>
     <message>
         <location line="-318"/>
@@ -2462,7 +2462,7 @@ A standard change address will be used instead.</source>
     </message>
     <message>
         <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="vanished">支払先アドレス (例：1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>支払先アドレス (例：1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+94"/>
@@ -2708,11 +2708,11 @@ A standard change address will be used instead.</source>
     <name>SplashScreen</name>
     <message>
         <source>The Sprouts developers</source>
-        <translation type="vanished">The Sprouts developers</translation>
+        <translation>The Sprouts developers</translation>
     </message>
     <message>
         <source>[testnet]</source>
-        <translation type="vanished">[testnet]</translation>
+        <translation>[testnet]</translation>
     </message>
 </context>
 <context>
@@ -2854,7 +2854,7 @@ A standard change address will be used instead.</source>
     </message>
     <message>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="vanished">生成されたコインは、使用する前に120ブロックの間成熟しなければなりません。このブロックを生成すると、ネットワークにブロードキャストされてブロックチェーンに追加されます。ブロックチェーンへの追加が失敗した場合、ラベルは「否認」に変わり、使用できない状況になります。自分のノードと他のノードと数秒以内で新しいブロックを生成されたときに、時折起こります。</translation>
+        <translation>生成されたコインは、使用する前に120ブロックの間成熟しなければなりません。このブロックを生成すると、ネットワークにブロードキャストされてブロックチェーンに追加されます。ブロックチェーンへの追加が失敗した場合、ラベルは「否認」に変わり、使用できない状況になります。自分のノードと他のノードと数秒以内で新しいブロックを生成されたときに、時折起こります。</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3278,87 +3278,87 @@ A standard change address will be used instead.</source>
     <name>bitcoin-core</name>
     <message>
         <source>Sprouts version</source>
-        <translation type="vanished">Sproutsバージョン</translation>
+        <translation>Sproutsバージョン</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation type="vanished">使用法</translation>
+        <translation>使用法</translation>
     </message>
     <message>
         <source>Send command to -server or Sproutsd</source>
-        <translation type="vanished">-serverまたはSproutsdへコマンドを送る。</translation>
+        <translation>-serverまたはSproutsdへコマンドを送る。</translation>
     </message>
     <message>
         <source>List commands</source>
-        <translation type="vanished">コマンド一覧</translation>
+        <translation>コマンド一覧</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation type="vanished">オプション:</translation>
+        <translation>オプション:</translation>
     </message>
     <message>
         <source>Specify configuration file (default: Sprouts.conf)</source>
-        <translation type="vanished">設定ファイルを指定 (デファルト: Sprouts.conf)</translation>
+        <translation>設定ファイルを指定 (デファルト: Sprouts.conf)</translation>
     </message>
     <message>
         <source>Specify pid file (default: Sproutsd.pid)</source>
-        <translation type="vanished">pid ファイルを指定 (デフォルト: Sproutsd.pid)</translation>
+        <translation>pid ファイルを指定 (デフォルト: Sproutsd.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation type="vanished">データ ディレクトリの指定</translation>
+        <translation>データ ディレクトリの指定</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (default: 25)</source>
-        <translation type="vanished">データベースのキャッシュサイズをメガバイトで設定 (初期値: 25)</translation>
+        <translation>データベースのキャッシュサイズをメガバイトで設定 (初期値: 25)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation type="vanished">接続&lt;ポート&gt;を開く (デフォルト: 8333、testnet は 18333)</translation>
+        <translation>接続&lt;ポート&gt;を開く (デフォルト: 8333、testnet は 18333)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation type="vanished">ピアの最大接続数 (初期値: 125)</translation>
+        <translation>ピアの最大接続数 (初期値: 125)</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation type="vanished">ピア アドレスを取得するためにノードに接続し、そして切断します</translation>
+        <translation>ピア アドレスを取得するためにノードに接続し、そして切断します</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation type="vanished">あなた自身のパブリック アドレスを指定</translation>
+        <translation>あなた自身のパブリック アドレスを指定</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation type="vanished">不正なピアを切断するためのしきい値 (初期値: 100)</translation>
+        <translation>不正なピアを切断するためのしきい値 (初期値: 100)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation type="vanished">不正なピアを再接続するまでの秒数 (初期値: 86400)</translation>
+        <translation>不正なピアを再接続するまでの秒数 (初期値: 86400)</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation type="vanished">IPv4 で接続する RPC ポート %u の設定中にエラーが発生しました: %s</translation>
+        <translation>IPv4 で接続する RPC ポート %u の設定中にエラーが発生しました: %s</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation type="vanished">&lt;port&gt; で JSON-RPC 接続を接続 (デフォルト: 8332かtestnet：18332)</translation>
+        <translation>&lt;port&gt; で JSON-RPC 接続を接続 (デフォルト: 8332かtestnet：18332)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation type="vanished">コマンドラインと JSON-RPC コマンドを許可</translation>
+        <translation>コマンドラインと JSON-RPC コマンドを許可</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation type="vanished">デーモンとしてバックグランドで実行しコマンドを受け入れる</translation>
+        <translation>デーモンとしてバックグランドで実行しコマンドを受け入れる</translation>
     </message>
     <message>
         <source>Use the test network</source>
-        <translation type="vanished">テストのためのネットワークを使用</translation>
+        <translation>テストのためのネットワークを使用</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation type="vanished">外部からの接続を許可 (初期値:  -proxy または -connect を使用していない場合は1)</translation>
+        <translation>外部からの接続を許可 (初期値:  -proxy または -connect を使用していない場合は1)</translation>
     </message>
     <message>
         <source>%s, you must set a rpcpassword in the configuration file:
@@ -3372,7 +3372,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Sprouts Alert&quot; admin@foo.com
 </source>
-        <translation type="vanished">%s, 設定ファイル：%sでrpcpasswordのパスワードを設定しなければならい
+        <translation>%s, 設定ファイル：%sでrpcpasswordのパスワードを設定しなければならない
 
 このランダムパスワードがおすすめです：
 rpcuser=Sproutsrpc
@@ -3380,187 +3380,187 @@ rpcpassword=%s
 (このパスワードを覚えなくても大丈夫です)
 ユーザ名とパスワードは同じであってはなりません。
 ファイルは存在しない場合は、所有者が読み取り可能な専用のファイルを作成してください。
-問題のことを知らせるために、alertnotifyの設定を有効にしたほうがいいです。
+問題が通知されるように、alertnotifyの設定を有効にしたほうがいいです。
 例：alertnotify=echo %%s | mail -s &quot;Sprouts警告&quot; admin@foo.com
 </translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation type="vanished">IPv6 で接続する RPC ポート %u の設定中にエラーが発生したので IPv4 に切り替えます: %s</translation>
+        <translation>IPv6 で接続する RPC ポート %u の設定中にエラーが発生したので IPv4 に切り替えます: %s</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation type="vanished">指定されたアドレスにバインドし、常にそれを聞いてください。 IPv6用に[host]：port記法を使用する </translation>
+        <translation>指定されたアドレスにバインドし、常にそれを聞いてください。 IPv6用に[host]：port記法を使用する </translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. Sprouts is probably already running.</source>
-        <translation type="vanished">データディレクトリ %s のロックを取得できません。Sprouts-Qtは既に実行中です。</translation>
+        <translation>データディレクトリ %s のロックを取得できません。Sprouts-Qtは既に実行中です。</translation>
     </message>
     <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="vanished">エラー：トランザクションは拒否されました！ これは、wallet.datのコピーを使用してコインがコピーに費やされたが、ここで費やされたものとしてマークされていないなど、あなたのウォレットのコインの一部がすでに使われている場合に発生する可能性があります。</translation>
+        <translation>エラー：トランザクションは拒否されました！ これは、wallet.datのコピーを使用してコインがコピーに費やされたが、ここで費やされたものとしてマークされていないなど、あなたのウォレットのコインの一部がすでに使われている場合に発生する可能性があります。</translation>
     </message>
     <message>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation type="vanished">エラー：この取引には、金額、複雑さ、または最近受け取った資金の使用のために少なくとも％sの取引手数料が必要です。</translation>
+        <translation>エラー：この取引には、金額、複雑さ、または最近受け取った資金の使用のために少なくとも％sの取引手数料が必要です。</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation type="vanished">関連した警告を受信した際にコマンドを実行する (cmdの中で%sにメッセージを交換される)</translation>
+        <translation>関連した警告を受信した際にコマンドを実行する (cmdの中で%sにメッセージを交換される)</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation type="vanished">ウォレットのトランザクションを変更する際にコマンドを実行 (cmd の %s は TxID に置換される)</translation>
+        <translation>ウォレットのトランザクションを変更する際にコマンドを実行 (cmd の %s は TxID に置換される)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation type="vanished">最優先、低手数料のトランザクションの最大サイズの設定(デファルト：27000)</translation>
+        <translation>最優先、低手数料のトランザクションの最大サイズの設定(デファルト：27000)</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="vanished">これはリリース前のテストビルドであり、自己責任で使用します。マイニングや商用アプリケーションには使用しないでください。</translation>
+        <translation>これはリリース前のテストビルドであり、自己責任で使用します。マイニングや商用アプリケーションには使用しないでください。</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="vanished">注意: -paytxfee が非常に高く設定されています! これはトランザクションを送信する場合に支払うトランザクション手数料です。</translation>
+        <translation>注意: -paytxfee が非常に高く設定されています! これはトランザクションを送信する場合に支払うトランザクション手数料です。</translation>
     </message>
     <message>
         <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation type="vanished">注意：表示されたトランザクションが正しくない可能性があります。アップグレードが必要な場合や、他のノードでアップグレードする必要がある場合があります。</translation>
+        <translation>注意：表示されたトランザクションが正しくない可能性があります。アップグレードが必要な場合や、他のノードでアップグレードする必要がある場合があります。</translation>
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation type="vanished">JSON-RPC 接続に OpenSSL (https) を使用</translation>
+        <translation>JSON-RPC 接続に OpenSSL (https) を使用</translation>
     </message>
     <message>
         <source>Server certificate file (default: server.cert)</source>
-        <translation type="vanished">サーバ証明書ファイル (初期値: server.cert)</translation>
+        <translation>サーバ証明書ファイル (初期値: server.cert)</translation>
     </message>
     <message>
         <source>Server private key (default: server.pem)</source>
-        <translation type="vanished">サーバの秘密鍵 (初期値: server.pem)</translation>
+        <translation>サーバの秘密鍵 (初期値: server.pem)</translation>
     </message>
     <message>
         <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation type="vanished">許容可能な暗号 (デフォルト： TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
+        <translation>許容可能な暗号化方式 (デフォルト： TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <source>This help message</source>
-        <translation type="vanished">このヘルプメッセージ</translation>
+        <translation>このヘルプメッセージ</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation type="vanished">このコンピュータの %s にバインドすることができません (バインドが返したエラーは %d, %s)</translation>
+        <translation>このコンピュータの %s にバインドすることができません (バインドが返したエラーは %d, %s)</translation>
     </message>
     <message>
         <source>Connect through socks proxy</source>
-        <translation type="vanished">SOCKSプロキシ経由で接続する</translation>
+        <translation>SOCKSプロキシ経由で接続する</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation type="vanished">-addnode, -seednode と -connect でDNSルックアップを許可する</translation>
+        <translation>-addnode, -seednode と -connect でDNSルックアップを許可する</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation type="vanished">アドレスを読み込み中...</translation>
+        <translation>アドレスを読み込み中...</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation type="vanished">wallet.datファイルの読み込みエラー: ウォレットが壊れました</translation>
+        <translation>wallet.datファイルの読み込みエラー: ウォレットが壊れました</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Sprouts</source>
-        <translation type="vanished">wallet.datファイルの読み込みエラー: Sprouts-Qtの最新バージョンが必要です</translation>
+        <translation>wallet.datファイルの読み込みエラー: Sprouts-Qtの最新バージョンが必要です</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Sprouts to complete</source>
-        <translation type="vanished">ウォレットのデータを書き直さなければなりません：Sprouts-Qtを再起動してください</translation>
+        <translation>ウォレットのデータを書き直さなければなりません：Sprouts-Qtを再起動してください</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
-        <translation type="vanished">wallet.dat 読み込みエラー</translation>
+        <translation>wallet.dat 読み込みエラー</translation>
     </message>
     <message>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation type="vanished">無効な -proxy アドレス: &apos;%s&apos;</translation>
+        <translation>無効な -proxy アドレス: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation type="vanished">-onlynet で指定された &apos;%s&apos; は未知のネットワークです</translation>
+        <translation>-onlynet で指定された &apos;%s&apos; は未知のネットワークです</translation>
     </message>
     <message>
         <source>Unknown -socks proxy version requested: %i</source>
-        <translation type="vanished">-socks で指定された %i は未知のバージョンです</translation>
+        <translation>-socks で指定された %i は未知のバージョンです</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation type="vanished">-bind のアドレス &apos;%s&apos; を解決できません</translation>
+        <translation>-bind のアドレス &apos;%s&apos; を解決できません</translation>
     </message>
     <message>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation type="vanished">-externalip のアドレス &apos;%s&apos; を解決できません</translation>
+        <translation>-externalip のアドレス &apos;%s&apos; を解決できません</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="vanished">-paytxfee=&lt;amount&gt; の金額 &apos;%s&apos; が無効です</translation>
+        <translation>-paytxfee=&lt;amount&gt; の金額 &apos;%s&apos; が無効です</translation>
     </message>
     <message>
         <source>Invalid amount</source>
-        <translation type="vanished">無効な金額</translation>
+        <translation>無効な金額</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation type="vanished">残高不足</translation>
+        <translation>残高不足</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation type="vanished">ブロック インデックスを読み込み中...</translation>
+        <translation>ブロック インデックスを読み込み中...</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation type="vanished">接続を維持したままノードを追加する</translation>
+        <translation>接続を維持したままノードを追加する</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Sprouts is probably already running.</source>
-        <translation type="vanished">このコンピュータの％sにバインドできません。 Sprouts-Qtは既に実行されています。</translation>
+        <translation>このコンピュータの％sにバインドできません。 Sprouts-Qtは既に実行されています。</translation>
     </message>
     <message>
         <source>Fee per KB to add to transactions you send</source>
-        <translation type="vanished">送るトランザクションを加えた1KBあたりの手数料</translation>
+        <translation>送るトランザクションを加えた1KBあたりの手数料</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation type="vanished">ウォレットを読み込み中...</translation>
+        <translation>ウォレットを読み込み中...</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation type="vanished">ウォレットのダウングレードはできません</translation>
+        <translation>ウォレットのダウングレードはできません</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation type="vanished">初期値のアドレスを書き込むことができません</translation>
+        <translation>初期値のアドレスを書き込むことができません</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation type="vanished">再スキャン中...</translation>
+        <translation>再スキャン中...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation type="vanished">読み込み完了</translation>
+        <translation>読み込み完了</translation>
     </message>
     <message>
         <source>To use the %s option</source>
-        <translation type="vanished">%s オプションを使うには</translation>
+        <translation>%s オプションを使うには</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="vanished">エラー</translation>
+        <translation>エラー</translation>
     </message>
     <message>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation type="vanished">rpcpassword=&lt;password&gt; を設定ファイルで設定してください:
+        <translation>rpcpassword=&lt;password&gt; を設定ファイルで設定してください:
 %s
 ファイルが存在しない場合は、オーナーだけが読み取れる権限でファイルを作成してください。</translation>
     </message>
